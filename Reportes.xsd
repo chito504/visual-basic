@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Reportes" targetNamespace="http://tempuri.org/Reportes.xsd" xmlns:mstns="http://tempuri.org/Reportes.xsd" xmlns="http://tempuri.org/Reportes.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Reportes" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Reportes" msprop:Generator_UserDSName="Reportes">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtsFichaCodigoBarra" msprop:Generator_TableClassName="dtsFichaCodigoBarraDataTable" msprop:Generator_TableVarName="tabledtsFichaCodigoBarra" msprop:Generator_TablePropName="dtsFichaCodigoBarra" msprop:Generator_RowDeletingName="dtsFichaCodigoBarraRowDeleting" msprop:Generator_RowChangingName="dtsFichaCodigoBarraRowChanging" msprop:Generator_RowEvHandlerName="dtsFichaCodigoBarraRowChangeEventHandler" msprop:Generator_RowDeletedName="dtsFichaCodigoBarraRowDeleted" msprop:Generator_UserTableName="dtsFichaCodigoBarra" msprop:Generator_RowChangedName="dtsFichaCodigoBarraRowChanged" msprop:Generator_RowEvArgName="dtsFichaCodigoBarraRowChangeEvent" msprop:Generator_RowClassName="dtsFichaCodigoBarraRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigoProducto" msprop:Generator_ColumnVarNameInTable="columncodigoProducto" msprop:Generator_ColumnPropNameInRow="codigoProducto" msprop:Generator_ColumnPropNameInTable="codigoProductoColumn" msprop:Generator_UserColumnName="codigoProducto" type="xs:string" minOccurs="0" />
+              <xs:element name="codigoBarra" msprop:Generator_ColumnVarNameInTable="columncodigoBarra" msprop:Generator_ColumnPropNameInRow="codigoBarra" msprop:Generator_ColumnPropNameInTable="codigoBarraColumn" msprop:Generator_UserColumnName="codigoBarra" type="xs:string" minOccurs="0" />
+              <xs:element name="NombreProducto" msprop:Generator_ColumnVarNameInTable="columnNombreProducto" msprop:Generator_ColumnPropNameInRow="NombreProducto" msprop:Generator_ColumnPropNameInTable="NombreProductoColumn" msprop:Generator_UserColumnName="NombreProducto" type="xs:string" minOccurs="0" />
+              <xs:element name="Barcode" msprop:Generator_ColumnVarNameInTable="columnBarcode" msprop:Generator_ColumnPropNameInRow="Barcode" msprop:Generator_ColumnPropNameInTable="BarcodeColumn" msprop:Generator_UserColumnName="Barcode" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="procioProducto" msprop:Generator_ColumnVarNameInTable="columnprocioProducto" msprop:Generator_ColumnPropNameInRow="procioProducto" msprop:Generator_ColumnPropNameInTable="procioProductoColumn" msprop:Generator_UserColumnName="procioProducto" type="xs:string" minOccurs="0" />
+              <xs:element name="_x002A_codigoProducto1_x002A_" msprop:Generator_ColumnVarNameInTable="_column_codigoProducto1_" msprop:Generator_ColumnPropNameInRow="__codigoProducto1_" msprop:Generator_ColumnPropNameInTable="__codigoProducto1_Column" msprop:Generator_UserColumnName="*codigoProducto1*" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
